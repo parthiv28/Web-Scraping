@@ -21,7 +21,7 @@ for page in range(1, 10):
         ratings.append(rating.text)
         
 df = pd.DataFrame({'Product Name':products,'Price':prices,'Rating':ratings}) 
-df.to_csv('products.csv', index=False, encoding='utf-8')
+df.to_csv('D19IT147_PARTHIV.csv', index=False, encoding='utf-8')
 
                         
 
